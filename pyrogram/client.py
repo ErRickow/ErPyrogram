@@ -179,7 +179,7 @@ class Client(Methods):
             Defaults to 1.
     """
 
-    APP_VERSION = f"Pyrogram {__version__}"
+    APP_VERSION = f"ErPyrogram {__version__}"
     DEVICE_MODEL = f"{platform.python_implementation()} {platform.python_version()}"
     SYSTEM_VERSION = f"{platform.system()} {platform.release()}"
 
@@ -220,7 +220,7 @@ class Client(Methods):
         workers: int = WORKERS,
         workdir: str = WORKDIR,
         plugins: dict = None,
-        parse_mode: "enums.ParseMode" = enums.ParseMode.DEFAULT,
+        parse_mode: "enums.ParseMode" = enums.ParseMode.HTML,
         no_updates: bool = None,
         takeout: bool = None,
         sleep_threshold: int = Session.SLEEP_THRESHOLD,
