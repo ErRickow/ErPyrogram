@@ -332,8 +332,8 @@ class Client(Methods):
         if self.bot_token:
             return await self.sign_in_bot(self.bot_token)
 
-        print(f"Welcome to Pyrogram (version {__version__})")
-        print(f"Pyrogram is free software and comes with ABSOLUTELY NO WARRANTY. Licensed\n"
+        print(f"Welcome to ErPyrogram (version {__version__})")
+        print(f"ErPyrogram is free software and comes with ABSOLUTELY NO WARRANTY. Licensed\n"
               f"under the terms of the {__license__}.\n")
 
         while True:
